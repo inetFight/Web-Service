@@ -1,11 +1,10 @@
 package org.home.api;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+
 @XmlRootElement(name = "User")
 public class UserData {
 static List<UserData> u = new ArrayList<UserData>();
@@ -15,7 +14,6 @@ private int balance;
 
 
 public UserData(){
-	
 }
 
 public UserData(String name, int balance){
@@ -38,6 +36,5 @@ public int getBalance() {
 public void setBalance(int balance) {
 	this.balance += balance;
 }	
-	
 	
 }
