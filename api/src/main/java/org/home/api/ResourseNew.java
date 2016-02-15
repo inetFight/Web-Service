@@ -10,9 +10,6 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import user.xml.User;
-import user.xml.UserService;
-
 
 
 @Path("/balance/new/")
